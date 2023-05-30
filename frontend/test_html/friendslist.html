@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="icon" href="<%= BASE_URL %>favicon.ico"> -->
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <title>Ft_transcendence</title>
+</head>
+  
+<body>
+    <div class="header_mode">
+
+        <div class="homePage">
+            <div class="header2">
+                <div class="links_container">
+                    <a href="./account.html" title="Profile"><img src="../public/icones/profile_ok.svg" alt="ProfileCo"/></a> 
+                </div>
+            </div>
+            <div class="header">
+                <div class="links_container">
+                    <a href="./index_connected.html" title="Home"><img src="../public/icones/home.svg" alt="Home"/></a>
+                    <a href="./friends.html" title="Friends"><img src="../public/icones/friends.svg" alt="Friends"/></a>
+                    <a href="./chat.html" title="Chat"><img src="../public/icones/chat.svg" alt="Chat"/></a>
+                    <a href="./game.html" title="Game"><img src="../public/icones/game.svg" alt="Game"/></a>
+                </div>
+            </div>
+            <div class="container1">
+			    <p class="text1" style="margin-left: 15px;">List Users</p>
+                
+                <div class="avatarcontainer">
+                    <div style="margin-top: -20px;margin-left: -60px;"><a href="./friendssearch.html"><button type="button" style="background-color: grey;">Go to search</button></a></div>
+                    <div style="margin-top: 10px;margin-left: -128px;"><a href="./friends.html"><button type="button" style="background-color: gray;">Friends</button></a></div>
+                    
+                    <div id="searchUser" style="margin-left: auto;margin-right: auto;">
+                        <div class="friend_request_div" style="margin: auto;margin-top: 50px;">    
+                            <div class="friends_item_container" style="margin: auto;">
+                                <div class="friend_item">
+                                    <p class="username" style="margin-left: 100px;">
+                                    Name
+                                    </p>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    
+                    <div style="margin-top: 200px;margin-left: 0px;"><a href="./index_connected.html"><button type="button">Logout</button></a></div>
+                
+                </div>
+            </div>
+           
+            <p class="text33">Requests &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Friends</p>
+                
+                <div class="container44">
+                    
+                    <div class="friend_request_div2">    
+                        <div class="friends_item_container">
+                            <div class="friend_item">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info33">
+                        <span style="margin-top: -100px;margin-left: -467px;"><p class="container33"></span>
+                            <div class="info_body">
+                                <div class="basic_info">
+                                </div>
+                                <div class="score_info">
+                                </div>
+                            </div>
+                        </div>   
+                </div>
+                    
+                <span><p class="container34" style="text-align: center;">Friends statut</span>
+                    <div class="statutfriends">
+                        <p class="online">online</p>
+                        <p class="offline" style="margin-top: -5px;">offline</p>
+                        <p class="in-queue" style="margin-top: -5px;"><i style="color: #00b4cc;" class="fa fa-gamepad"></i> waiting</p>
+                        <p class="spectating" style="margin-top: -5px;"><i style="color: blueviolet;" class="fa fa-binoculars" aria-hidden="true"></i> spectating</p>
+                        <p class="in-game" style="margin-top: -5px;"><i style="color: green;" class="fas fa-table-tennis"></i> in-game</p>
+                    </div> 
+                    <div style="display:flex;margin-left: -1770px;margin-top: -287px;" class="buttons_container" style="cursor:pointer;">
+                        <div class="buttons_wrapper">
+                            <a href="./friendsreqin.html"  style="text-decoration: none; color: whitesmoke;"><div class="conf_selected" style="text-decoration: none;" id="login_button">Received</a></div>
+                            <a href="./friendsreqout.html"  style="text-decoration: none; color: whitesmoke;"><div id="register_button" style="text-indent: 2px;">Posted</a></div>
+                        </div>
+                    </div> 
+                </div>   
+            <div class="leaderboard33" style="display: flex;">
+                <div class="leaderboardUsers33">
+                    <div class="leaderboard_header">
+                        <div class="userInfo">
+                            <div class="rank">
+                                Rank
+                            </div>
+                            <div class="rank">
+                                Avatar
+                            </div>
+                            <div class="opponent">
+                                Name
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <div class="rank">
+                                Statut
+                            </div>
+                            <div class="rank">
+                                Play
+                            </div>
+                            <div class="score">
+                                Kick
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test">
+                        <div class="leaderboard_item">
+                            <div class="userInfo"> 
+                                <div class="rank">
+                                    1
+                                </div>
+                                <div class="rank">
+                                    <span><img class="avatar" style="margin-top: -3px; height: 15%;width: 15%;" img src="../public/icones/avatar.jpeg" alt="UserAvatar"/></span>
+                                </div>  
+                                <div class="rank">
+                                    name
+                                </div>      
+                            </div>
+                            <div class="stat">
+                                <div class="rank">
+                                    statut
+                                </div>
+                                <div class="rank">
+                                    <button class="challenge_button fas fa-table-tennis"></button>
+                                </div>
+                                <div class="score">
+                                    <button class="unfriend_button">Kick</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
