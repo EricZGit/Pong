@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@nestjs/websockets": "^9.4.3",
+    "axios": "^1.4.0"
+  }
+}
